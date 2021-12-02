@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "node-dev": "node server/devServer.js",
     "build:client": "tsc && vite build",
     "build:server": "tsc && vite build",
     "serve": "vite preview"
